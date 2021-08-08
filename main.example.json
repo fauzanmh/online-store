@@ -1,0 +1,23 @@
+{
+    "api": {
+        "http": {
+            "port": ":8099"
+        }
+    },
+    "context": {
+        "timeout": 10
+    },
+    "database": {
+        "pg": {
+            "host": "localhost",
+            "port": "5432",
+            "dbname": "online_store",
+            "user": "postgres",
+            "password": "",
+            "sslmode": "disable",
+            "max_open_connection": 10,
+            "max_idle_connection": 5,
+            "max_connection_lifetime": "5m"
+        }
+    }
+}
